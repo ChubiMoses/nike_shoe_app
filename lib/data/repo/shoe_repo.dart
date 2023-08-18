@@ -1,7 +1,5 @@
 import 'dart:ui';
-
 import 'package:challenge/data/model/shoe_model.dart';
-import 'package:get/get.dart';
 
 class ShoesRepository{
 
@@ -9,7 +7,7 @@ var listCategory = ["BasketBall", "Running", "Training"];
 
 final listShoes = [
   Shoes(
-    "41B XIBcoo Niker Shoe", 
+    "Nike Impact 4 Basketball Shoes", 
     "Nike Air", 
     "\$120.00",
      4,
@@ -29,7 +27,7 @@ final listShoes = [
    ]
    ),
     Shoes(
-    "41B XIBcoo Niker Shoe", 
+    "Nike Impact 4 Basketball Shoes", 
     "Nike Air", 
     "\$120.00",
      4,
@@ -50,7 +48,7 @@ final listShoes = [
    ]
    ),
     Shoes(
-    "41B XIBcoo Niker Shoe", 
+   "Nike Impact 4 Basketball Shoes", 
     "Nike Air", 
     "\$120.00",
      4,
@@ -59,7 +57,7 @@ final listShoes = [
       'assets/nike3.png', 
       const Color(0xFF891E4E)
       ),
-   ImageShoes(
+      ImageShoes(
       'assets/nike1.png', 
       const Color(0xFFE66573)
       ),
